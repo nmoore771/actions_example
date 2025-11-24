@@ -8,3 +8,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: Run a script
       run : echo "Hello, World!"
+    - name: Check for differences
+      run : diff file.txt file.txt
